@@ -1,0 +1,142 @@
+#about-page {
+  width: 100%;
+}
+#about-page .about-inner {
+  height: auto;
+  float: left;
+  padding: 25px;
+}
+#about-page .about-inner .os-books {
+  width: 30%;
+  float: left;
+}
+#about-page .about-inner .os-books img {
+  width: 77%;
+  margin-top: 1%;
+}
+#about-page .about-inner .about-text {
+  width: 98%;
+  margin: 0 auto;
+  position: relative;
+}
+#about-page .about-inner .about-text .about-text-inner {
+  width: 67%;
+  float: left;
+}
+#about-page .about-inner .about-text .about-text-inner h1 {
+  text-align: center;
+  position: relative;
+}
+#about-page .about-inner .about-text .about-text-inner h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+#about-page .about-inner .about-text .about-text-inner .values {
+  margin-left: 20px;
+}
+#contact-container {
+  width: 100%;
+}
+#contact-container h1 {
+  margin: 10px 0;
+}
+#contact-container p {
+  margin-bottom: 20px;
+  width: 81%;
+}
+#contact-container .form-label {
+  width: 20%;
+  float: left;
+  color: #4B4B4D;
+}
+#contact-container .form-input {
+  width: 76%;
+  float: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #afafac;
+}
+#contact-container .row {
+  height: 35px;
+  clear: both;
+  width: 84%;
+  margin-top: 16px;
+}
+#contact-container .submit-btn {
+  float: right;
+  border: none;
+  margin: 18px 8px;
+  padding: 10px 14px;
+  background-color: #2C2A2B;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 9px 15px;
+  font-size: 12px;
+}
+#contact-container .phone-bird {
+  width: 25%;
+  position: relative;
+  float: left;
+  margin: 2% 3%;
+}
+#contact-container .contact-inner {
+  height: 410px;
+  min-height: 370px;
+  width: 100%;
+  padding: 10px 70px;
+  position: relative;
+}
+#contact-container .contact-inner .form {
+  float: left;
+  width: 56%;
+}
+.about-gradient {
+  background: -moz-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(237, 166, 45, 0.37) 37%, #49a5bf 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(147, 206, 222, 0)), color-stop(37%, rgba(237, 166, 45, 0.37)), color-stop(100%, #49a5bf));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(237, 166, 45, 0.37) 37%, #49a5bf 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(237, 166, 45, 0.37) 37%, #49a5bf 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(237, 166, 45, 0.37) 37%, #49a5bf 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, rgba(147, 206, 222, 0) 0%, rgba(237, 166, 45, 0.37) 37%, #49a5bf 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0093cede', endColorstr='#49a5bf', GradientType=0);
+  /* IE6-9 */
+
+}
+.contact-gradient {
+  background: -moz-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(13, 30, 22, 0.38) 38%, rgba(209, 98, 81, 0.78) 78%, #d16251 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(147, 206, 222, 0)), color-stop(38%, rgba(13, 30, 22, 0.38)), color-stop(78%, rgba(209, 98, 81, 0.78)), color-stop(100%, #d16251));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(13, 30, 22, 0.38) 38%, rgba(209, 98, 81, 0.78) 78%, #d16251 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(13, 30, 22, 0.38) 38%, rgba(209, 98, 81, 0.78) 78%, #d16251 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, rgba(147, 206, 222, 0) 0%, rgba(13, 30, 22, 0.38) 38%, rgba(209, 98, 81, 0.78) 78%, #d16251 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, rgba(147, 206, 222, 0) 0%, rgba(13, 30, 22, 0.38) 38%, rgba(209, 98, 81, 0.78) 78%, #d16251 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0093cede', endColorstr='#d16251', GradientType=0);
+  /* IE6-9 */
+
+}

@@ -1,0 +1,2647 @@
+2014/02/14 07:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in C:\wamp\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\framework\web\CController.php(270): CController->missingAction('contact')
+#1 C:\wamp\framework\web\CWebApplication.php(282): CController->run('contact')
+#2 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('content/contact')
+#3 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#4 C:\wamp\www\olive\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/olive/content/contact
+---
+2014/02/14 07:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/content/contact
+---
+2014/02/14 07:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/content/contact
+---
+2014/02/14 07:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/content/contact
+---
+2014/02/14 07:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/content/
+---
+2014/02/14 07:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/content/
+---
+2014/02/14 07:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/content/
+---
+2014/02/14 07:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/content/admin
+---
+2014/02/14 07:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/content/admin
+---
+2014/02/14 07:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/content/admin
+---
+2014/02/14 07:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/content/create
+---
+2014/02/14 07:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/content/create
+---
+2014/02/14 07:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/content/create
+---
+2014/02/14 07:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/content/index
+---
+2014/02/14 07:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/content/index
+---
+2014/02/14 07:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/content/index
+---
+2014/02/14 07:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/content/create
+---
+2014/02/14 07:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/content/create
+---
+2014/02/14 07:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/content/create
+---
+2014/02/14 07:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\wamp\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\wamp\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#3 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#4 C:\wamp\www\olive\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/olive/site/create
+---
+2014/02/14 07:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/create
+---
+2014/02/14 07:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/create
+---
+2014/02/14 07:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/create
+---
+2014/02/14 07:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 07:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/site/index
+---
+2014/02/14 07:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/site/index
+---
+2014/02/14 07:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/site/index
+---
+2014/02/14 07:48:59 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\olive\protected\controllers\SiteController.php:230)
+Stack trace:
+#0 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#6 C:\wamp\www\olive\index.php(14): CWebApplication->run()
+REQUEST_URI=/olive/site/contact
+in C:\wamp\www\olive\protected\controllers\SiteController.php (230)
+in C:\wamp\www\olive\index.php (14)
+2014/02/14 07:55:20 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\olive\protected\controllers\SiteController.php:230)
+Stack trace:
+#0 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#6 C:\wamp\www\olive\index.php(14): CWebApplication->run()
+REQUEST_URI=/olive/site/contact
+in C:\wamp\www\olive\protected\controllers\SiteController.php (230)
+in C:\wamp\www\olive\index.php (14)
+2014/02/14 07:58:44 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.smtpmail.PHPMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\wamp\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\framework\base\CModule.php(103): CModule->getComponent('Smtpmail')
+#3 C:\wamp\www\olive\protected\controllers\SiteController.php(231): CModule->__get('Smtpmail')
+#4 C:\wamp\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#5 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\framework\web\CWebApplication.php(282): CController->run('contact')
+#9 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#10 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#11 C:\wamp\www\olive\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/olive/site/contact
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 08:02:02 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\olive\protected\controllers\SiteController.php:230)
+Stack trace:
+#0 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#6 C:\wamp\www\olive\index.php(14): CWebApplication->run()
+REQUEST_URI=/olive/site/contact
+in C:\wamp\www\olive\protected\controllers\SiteController.php (230)
+in C:\wamp\www\olive\index.php (14)
+2014/02/14 08:03:40 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.smtpmail.PHPMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\wamp\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\framework\base\CModule.php(103): CModule->getComponent('Smtpmail')
+#3 C:\wamp\www\olive\protected\controllers\SiteController.php(230): CModule->__get('Smtpmail')
+#4 C:\wamp\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#5 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\framework\web\CWebApplication.php(282): CController->run('contact')
+#9 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#10 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#11 C:\wamp\www\olive\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/olive/site/contact
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 08:08:08 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.smtpmail.PHPMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\wamp\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\framework\base\CModule.php(103): CModule->getComponent('Smtpmail')
+#3 C:\wamp\www\olive\protected\controllers\SiteController.php(230): CModule->__get('Smtpmail')
+#4 C:\wamp\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#5 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\framework\web\CWebApplication.php(282): CController->run('contact')
+#9 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#10 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#11 C:\wamp\www\olive\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/olive/site/contact
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 08:08:13 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.smtpmail.PHPMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\wamp\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\framework\base\CModule.php(103): CModule->getComponent('Smtpmail')
+#3 C:\wamp\www\olive\protected\controllers\SiteController.php(230): CModule->__get('Smtpmail')
+#4 C:\wamp\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#5 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\framework\web\CWebApplication.php(282): CController->run('contact')
+#9 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#10 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#11 C:\wamp\www\olive\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/olive/site/contact
+HTTP_REFERER=http://localhost/olive/site/contact
+---
+2014/02/14 08:09:22 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\olive\protected\controllers\SiteController.php:232)
+Stack trace:
+#0 C:\wamp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#6 C:\wamp\www\olive\index.php(14): CWebApplication->run()
+REQUEST_URI=/olive/site/contact
+in C:\wamp\www\olive\protected\controllers\SiteController.php (232)
+in C:\wamp\www\olive\index.php (14)
+2014/02/14 16:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/print.css
+HTTP_REFERER=http://localhost/olive/
+---
+2014/02/14 16:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/ie.css".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/ie.css')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/ie.css
+HTTP_REFERER=http://localhost/olive/
+---
+2014/02/14 16:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in C:\wamp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 C:\wamp\framework\base\CApplication.php(168): CWebApplication->processRequest()
+#2 C:\wamp\www\olive\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost/olive/
+---
+2014/11/11 20:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:33:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:39:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/11 20:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/27 13:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/27 13:27:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2014/11/27 13:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:24:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'charuv'@'localhost' (using password: YES)' in /Applications/MAMP/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /Applications/MAMP/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/MAMP/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/MAMP/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/MAMP/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php(67): CModule->__get('db')
+#5 /Applications/MAMP/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#6 /Applications/MAMP/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /Applications/MAMP/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /Applications/MAMP/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('')
+#10 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#11 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/olive/
+---
+2015/08/04 15:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:38:54 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:44:22 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:44:35 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:44:58 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:46:01 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:46:53 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "trainings".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('trainings')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/trainings
+---
+2015/08/04 15:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/ico...')
+#3 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/olive/site/images/icons/Yel_Bird.png
+HTTP_REFERER=http://localhost:8888/olive/site/testimonials/
+---
+2015/08/04 15:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/ico...')
+#3 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/olive/site/images/icons/Red_Bird.png
+HTTP_REFERER=http://localhost:8888/olive/site/testimonials/
+---
+2015/08/04 15:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/ico...')
+#3 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/olive/site/images/icons/Prp_Bird.png
+HTTP_REFERER=http://localhost:8888/olive/site/testimonials/
+---
+2015/08/04 15:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 15:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Applications/MAMP/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/ico...')
+#3 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/olive/site/images/icons/Turq_Bird.png
+HTTP_REFERER=http://localhost:8888/olive/site/testimonials/
+---
+2015/08/04 15:48:11 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:115)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (115)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:52:42 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:55:55 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (121)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:55:57 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (121)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:56:54 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (121)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 15:58:11 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:00:22 [error] [php] Object of class CDbDataReader could not be converted to string (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:00:30 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:15:07 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:15:48 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:17:26 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:18:12 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:18:43 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:19:58 [error] [php] Undefined variable: Carray (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:123)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (123)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:22:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 16:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 16:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 16:25:27 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:25:41 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:25:42 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:28:38 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:28:39 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:29:00 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:32:10 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:36:43 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:36:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL LIMIT 9' at line 1. The SQL statement executed was:  SELECT * from content where idcontent  NOT NULL LIMIT 9.
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:36:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL LIMIT 9' at line 1. The SQL statement executed was:  SELECT * from content where idcontent  NOT NULL LIMIT 9' in /Applications/MAMP/framework/db/CDbCommand.php:527
+Stack trace:
+#0 /Applications/MAMP/framework/db/CDbCommand.php(389): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php(120): CDbCommand->queryAll()
+#2 /Applications/MAMP/framework/web/actions/CInlineAction.php(49): SiteController->actionTrainings()
+#3 /Applications/MAMP/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('trainings')
+#7 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('site/trainings')
+#8 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/olive/site/trainings
+HTTP_REFERER=http://localhost:8888/olive/site/view/id/7
+---
+2015/08/04 16:38:41 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 16:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 16:39:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 16:39:36 [error] [php] Undefined index: image (/Applications/MAMP/htdocs/olive/protected/views/site/_ajaxThumbs.php:13)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php(389): SiteController->renderPartial()
+#2 /Applications/MAMP/framework/web/actions/CInlineAction.php(49): SiteController->actionTrainajax()
+#3 /Applications/MAMP/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#5 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainajax?limit=3
+in /Applications/MAMP/htdocs/olive/protected/views/site/_ajaxThumbs.php (13)
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (389)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:02:14 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:19:35 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "trainings".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('trainings')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/trainings
+---
+2015/08/04 17:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 17:19:44 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:120)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (120)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:25:58 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:26:11 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:27:38 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:35:29 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:35:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'charuv'@'localhost' (using password: YES)' in /Applications/MAMP/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /Applications/MAMP/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Applications/MAMP/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Applications/MAMP/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Applications/MAMP/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php(67): CModule->__get('db')
+#5 /Applications/MAMP/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#6 /Applications/MAMP/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /Applications/MAMP/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /Applications/MAMP/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/MAMP/framework/web/CWebApplication.php(282): CController->run('')
+#10 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#11 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#12 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/olive/
+---
+2015/08/04 17:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 17:38:51 [error] [php] Array to string conversion (/Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php:119)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#1 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (119)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 17:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 17:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 17:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 18:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/04 18:47:42 [error] [php] Undefined index: $i (/Applications/MAMP/htdocs/olive/protected/views/site/trainings.php:55)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php(133): SiteController->render()
+#3 /Applications/MAMP/framework/web/actions/CInlineAction.php(49): SiteController->actionTrainings()
+#4 /Applications/MAMP/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/views/site/trainings.php (55)
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (133)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 18:48:16 [error] [php] Undefined index: $i (/Applications/MAMP/htdocs/olive/protected/views/site/trainings.php:55)
+Stack trace:
+#0 /Applications/MAMP/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php(133): SiteController->render()
+#3 /Applications/MAMP/framework/web/actions/CInlineAction.php(49): SiteController->actionTrainings()
+#4 /Applications/MAMP/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/framework/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/olive/index.php(15): CWebApplication->run()
+REQUEST_URI=/olive/site/trainings
+in /Applications/MAMP/htdocs/olive/protected/views/site/trainings.php (55)
+in /Applications/MAMP/htdocs/olive/protected/controllers/SiteController.php (133)
+in /Applications/MAMP/htdocs/olive/index.php (15)
+2015/08/04 18:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:42:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:42:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:44:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/trainings
+---
+2015/08/05 07:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 07:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 08:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 08:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 08:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:39:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 13:59:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:09:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:13:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:16:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:33:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:37:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:39:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/about
+---
+2015/08/05 15:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/trainings
+---
+2015/08/05 15:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/contact
+---
+2015/08/05 15:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/about
+---
+2015/08/05 15:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/trainings
+---
+2015/08/05 15:09:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/
+---
+2015/08/05 15:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/
+---
+2015/08/05 15:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 15:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 16:10:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/site/contact
+---
+2015/08/05 16:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 16:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 16:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 16:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---
+2015/08/05 16:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bg.png".' in /Applications/MAMP/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bg.png')
+#1 /Applications/MAMP/framework/base/CApplication.php(168): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/olive/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/olive/css/bg.png
+HTTP_REFERER=http://localhost:8888/olive/css/olive_v2.css
+---

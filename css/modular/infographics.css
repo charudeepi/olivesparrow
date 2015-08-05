@@ -1,0 +1,42 @@
+#infographics-col div.infinite-scroll {
+  width: 102%;
+  min-height: 150px;
+  float: left;
+  min-height: 554px;
+  overflow: auto;
+}
+#infographics-col div.infinite-scroll .jscroll-inner .next {
+  text-align: right;
+  padding: 0 2%;
+  font-weight: bold;
+}
+#infographics-col div.infinite-scroll div.list {
+  border: 1px solid #CCCCCC;
+  color: #FFFFFF;
+  float: left;
+  min-height: 155px;
+  position: relative;
+  width: 30.6%;
+  display: list-item;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 5px #000000;
+  -moz-box-shadow: 0px 0px 5px #000000;
+  -o-box-shadow: 0px 0px 5px #000000;
+  box-shadow: 0px 0px 5px #000000;
+}
+#infographics-col div.infinite-scroll div.list:hover {
+  border: 1px solid red;
+}
+#infographics-col div.infinite-scroll div.list a {
+  display: block;
+  cursor: pointer;
+}
+#infographics-col div.infinite-scroll div.list img {
+  width: 200px;
+  max-height: 200px;
+}
+#infographics-col div.infinite-scroll div.list h4 {
+  background-color: #4c4a4a;
+  padding: 4%;
+}

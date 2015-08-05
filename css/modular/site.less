@@ -1,0 +1,305 @@
+body {
+  width: 1040px;
+  margin: 0 auto;
+}
+#content {
+  margin-top: 20px;
+}
+
+#header {
+  height: 160px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1% 1% 0 1%;
+
+// ------------ Header-logo, social-items ------------
+
+  .header-left {
+    display: inline-block;
+    float: left;
+    width: 43%;
+
+    .logo-container {
+      background: #FFFFFF url('../images/home/Logo.png') no-repeat left top;
+      width: 391px;
+      height: 106px;
+    }
+
+    .social-container {
+      float:right;
+      margin-right: 15%;
+
+      .social-item {
+        cursor: pointer;
+        background-color: #4c4a4a; //@headerDarkBg;
+        height: 32px;
+        width: 32px;
+        display: inline-block;
+        .rounded(20px);
+
+        i{
+          color: #FFFFFF;
+          font-size: 16px;
+          margin-top: 8px;
+          display: block;
+        }
+      }
+    }
+
+  }
+
+  // ------------ Header-bubble, menu items ------------
+
+  .header-right {
+    float: right;
+    display: inline-block;
+    width: 55%;
+
+    .header-bubble {
+      width: 44%;
+      height: 100px;
+      float: left;
+      margin: 0 8px;
+      color: #FFFFFF;
+      position: relative;
+
+      .top-rect {
+
+        .rounded(5px);
+        margin-left: 5px;
+        position: relative;
+       	width: 100%;
+        height: 100%;
+       	text-align: left;
+       	line-height: 100px;
+       	background-color: @headerDarkBg; // #4c4a4a;
+       	border: 8px solid @headerDarkBg; //;
+
+        .box-shadow(0px 0px 5px #000);
+      }
+    }
+
+    .menu-container {
+      float: right;
+      width: 50%;
+      margin: 0 3px;
+      font-size: 16px;
+
+      .menu-item {
+        vertical-align: middle;
+        text-align: center;
+        margin: 0px 4px 2px 0;
+        width: 130px;
+        height: 38px;
+        padding-top: 16px;
+        display: inline-block;
+        background-color:@headerDarkBg; // #4c4a4a;
+        cursor: pointer;
+
+        .rounded(5px);
+        .box-shadow(0px 0px 5px #000);
+
+        &:hover {
+          color: @oliveMenuText;
+        }
+
+        a {
+          color: #D2D2D2;
+        }
+      }
+
+      .menu-item.margin-top{margin: 6px 4px 0px 0;}
+    }
+
+  }
+}
+//----------------- center column ----------------
+
+#main-col {
+
+  .content-item {
+    height: 1010px;
+    width: 100%;
+    position: relative;
+    background-color: #CCCCCC;
+
+    .inner-bubble {
+      width: 250px;
+      height: 110px;
+      position: absolute;
+      z-index: 200;
+    }
+
+    .inner-text-holder {
+      width: 174px;
+      text-align: right;
+      position: absolute;
+
+      h1 {
+        padding: 4px;
+        color: @buffTextColor;
+      }
+
+      .intro {
+        text-align: right;
+        color: @buffTextColor;
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+
+      a.go-link {
+        font-size: 22px;
+        padding: 2px;
+        color: @buffTextColor;
+        cursor: pointer;
+      }
+    }
+
+    .buff-container {
+      position: absolute;
+      width: 100%;
+      height: 381px;
+    }
+
+    .buff-1 {
+      background: transparent url('../images/BirdLarger/1.png') no-repeat 402px 0px;
+      top: 0px;
+      right: 0;
+
+      .inner-text-holder {
+        top: 150px;
+        right: 60px;
+      }
+    }
+    .buff-2 {
+      background: transparent url('../images/BirdLarger/2.png') no-repeat -20px 0px;
+      left: 0;
+      top: 343px;
+      z-index: 999;
+
+      .inner-bubble {
+        right: 170px;
+        top: 69px;
+      }
+
+      .inner-text-holder {
+        top: 110px;
+        left: 30px;
+        h1,.intro, a {text-align: left; float: left;}
+      }
+    }
+
+    .buff-3 {
+      background: transparent url('../images/BirdLarger/3.png') no-repeat 416px 0;
+      top: 430px;
+
+      .inner-text-holder {
+        top: 100px;
+        right: 50px;
+      }
+
+      .inner-bubble {
+        left: 245px;
+        top: 66px;
+      }
+    }
+    .buff-4 {
+      background: transparent url('../images/BirdLarger/4.png') no-repeat -20px 0;
+      top: 647px;
+      left: 0;
+      z-index: 1005;
+
+      .inner-bubble {
+        right: 172px;
+        top: 69px;
+      }
+
+      .inner-text-holder {
+        top: 110px;
+        left: 30px;
+        h1,.intro, a {text-align: left; float: left;}
+      }
+    }
+    .buff-5 {
+      background: transparent url('../images/BirdLarger/5.png') no-repeat 1px 0;
+      top: 19px;
+      left: 0;
+      z-index: 12;
+      }
+
+      .inner-bubble {
+        right: 178px;
+        top: 17px;
+      }
+
+      .inner-text-holder {
+        top: 148px;
+        left: 30px;
+        h1,.intro, a {text-align: left; float: left;}
+      }
+    }
+  }
+
+
+
+// -------------- Footer container --------------
+
+#footer {
+  width: 100%;
+  background-color: #EEEEEE;
+  text-align: center;
+  float: left;
+  min-height: 320px;
+  //margin-top: 10px;
+
+  ul.menu {
+    list-style: none;
+    margin: 0 auto;
+    padding: 2% 2% 3% 5%;
+    text-align: left;
+
+
+      li.main {
+        color: #648d00;
+        display: block;
+        float: left;
+        width: 23%;
+        margin: 0;
+        min-height: 125px;
+        list-style: none;
+        font-weight: bold;
+        padding: 1%;
+
+        a {
+          color: @darkOliveText;
+        }
+
+        ul {
+          //margin: 0 0 0 10px;
+          list-style: none;
+
+          li {
+            padding: 2px;
+          }
+
+          li a {
+            font-weight: normal;
+            list-style: none;
+            color: @footerTextGray;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+  }
+}
+
+.copyright {
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #a3cb00;
+  padding: 8px;
+}
